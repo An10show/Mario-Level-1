@@ -10,16 +10,14 @@
 
 .cabecalho {
     display: flex;
-    border-left: 85px;
     position: fixed;
     bottom: 850px;
-    left: 95px;
+    justify-content: space-between;
   
 
 }
 
 li {
-    margin-left: 750px;
     color: #FFFFFF;
     cursor: pointer;
     border: none;
@@ -30,10 +28,12 @@ li {
            background-color: blue;
            height: 100%;
            
-           
-         
+       
 }
+.cabecalho .menu{
 
+    background-color: tomato;
+}
 
 body {
     display: flex;
